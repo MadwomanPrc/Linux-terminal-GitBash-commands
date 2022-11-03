@@ -1,0 +1,323 @@
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~
+$ pwd
+/c/Users/User
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~
+$ cd desktop
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop (master)
+$ mkdir test
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop (master)
+$ cd test
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test (master)
+$ mkdir a b c
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test (master)
+$ cd a
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/a (master)
+$ touch 1.txt>2.txt>3.json>4.json>5.json
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/a (master)
+$ mkdir e f g
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/a (master)
+$ ls
+1.txt  2.txt  3.json  4.json  5.json  e/  f/  g/
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/a (master)
+$ mv 1.txt test/
+mv: cannot move '1.txt' to 'test/': No such file or directory
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/a (master)
+$ mv 1.txt /test
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/a (master)
+$ touch 1.txt
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/a (master)
+$ start 1.txt
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/a (master)
+$ mv 1.txt ~/desktop/test
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/a (master)
+$ mv 2.txt ~/desktop/test
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/a (master)
+$ cp 3.json ~/desktop/test/b
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/a (master)
+$ cp 4.json ~/desktop/test/b
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test (master)r)
+$ find -type f -name 4.json
+./4.json
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test (master)
+$ awei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/a (master)
+$ head -5 1.txt
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test (master) directory
+$ pwd
+/c/Users/User/desktop/testGW64 ~/desktop/test/a (master)
+$ cd ../
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test (master)
+$ ls
+1.txt  2.txt  a/  b/  c/
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test (master)
+$ date
+Sat Oct 29 18:45:03 RTZ 2022
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test (master)
+$ mkdir dir_1
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test (master)
+$ cd dir_1
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1 (master)
+$ mkdir inner_dir_1
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1 (master)
+$ pwd
+/c/Users/User/desktop/test/dir_1
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1 (master)
+$ cd ../
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test (master)
+$ cd dir_1
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1 (master)
+$ touch  tf_1.txt
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1 (master)
+$ cat>>tf_1.txt
+- the first 1
+- the second 2
+- the third 3
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1 (master)
+$ cd inner_dir_1
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1/inner_dir_1 (master)
+$ cat>>tf_3.txt
+the
+the s
+the sec
+
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1/inner_dir_1 (master)
+$ cat>>tf_3.txt
+“the second 2”
+“the sec 2”
+“the SeCoNd 2”
+
+bash: “the: command not found
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1/inner_dir_1 (master)
+$ cat >> ../tf_2.txt
+“the sec 3”
+“the seConD 2”
+
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1/inner_dir_1 (master)
+$ cat>>tF_4.txt
+sec
+sec
+sec
+sec
+sec
+sec
+sec
+sec
+s
+s
+s
+s
+s
+s
+s
+s
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1/inner_dir_1 (master)
+$ ^C
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1/inner_dir_1 (master)
+$ cat>>tF_5.txt
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1/inner_dir_1 (master)
+$ ls
+tF_4.txt  tF_5.txt  tf_3.txt
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1/inner_dir_1 (master)
+$ cd ./
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1/inner_dir_1 (master)
+$ cd ..
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1 (master)
+$ tail ~/desktop/test/dir_1/inner_dir_1/tf_3.txt
+the
+the s
+the sec
+“the sec 2”
+“the SeCoNd 2”
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1 (master)
+$ pwd
+/c/Users/User/desktop/test/dir_1
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1 (master)
+$ ls
+inner_dir_1/  tf_1.txt  tf_2.txt
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1 (master)
+$ cd inner_dir_1
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1/inner_dir_1 (master)
+$ ls
+tF_4.txt  tF_5.txt  tf_3.txt
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1/inner_dir_1 (master)
+$ echo -n >tf_4.txt
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1/inner_dir_1 (master)
+$ find . -name “tf*”
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1/inner_dir_1 (master)
+$ find . -name “tf*””
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1/inner_dir_1 (master)
+$ ды
+bash: ды: command not found
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1/inner_dir_1 (master)
+$ ls
+tF_4.txt  tF_5.txt  tf_3.txt
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1/inner_dir_1 (master)
+$ find . -iname “tf*.txt
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1/inner_dir_1 (master)
+$ grep sec *.txt
+tf_3.txt:the sec
+tf_3.txt:“the sec 2”
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1/inner_dir_1 (master)
+$ grep -i sec *.txt
+tf_3.txt:the sec
+tf_3.txt:“the sec 2”
+tf_3.txt:“the SeCoNd 2”
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1/inner_dir_1 (master)
+$ grep -iw sec
+
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1/inner_dir_1 (master)
+$ grep -iw "sec" *.txt
+tf_3.txt:the sec
+tf_3.txt:“the sec 2”
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1/inner_dir_1 (master)
+$ grep -i second *.txt
+tf_3.txt:“the SeCoNd 2”
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1/inner_dir_1 (master)
+$ grep second *.txt
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1/inner_dir_1 (master)
+$ grep -r second *.txt
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1/inner_dir_1 (master)
+$ grep -l sekond
+
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1/inner_dir_1 (master)
+$ $ grep -l sekond *.txt
+bash: $: command not found
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1/inner_dir_1 (master)
+$ $ grep -l second *.txt
+bash: $: command not found
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1/inner_dir_1 (master)
+$ grep -l "second" *.txt
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1/inner_dir_1 (master)
+$ grep -r -v "second"
+tf_3.txt:the
+tf_3.txt:the s
+tf_3.txt:the sec
+tf_3.txt:“the sec 2”
+tf_3.txt:“the SeCoNd 2”
+tF_5.txt:a
+tF_5.txt:a
+tF_5.txt:a
+tF_5.txt:a
+tF_5.txt:a
+tF_5.txt:a
+tF_5.txt:a
+tF_5.txt:a
+tF_5.txt:a
+tF_5.txt:a
+tF_5.txt:a
+tF_5.txt:a
+tF_5.txt:a
+tF_5.txt:a
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1/inner_dir_1 (master)
+$ grep -l "second"
+
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1/inner_dir_1 (master)
+$ grep -l -r -v "second"
+tf_3.txt
+tF_5.txt
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1/inner_dir_1 (master)
+$ head -5 tf_3.txt
+the
+the s
+the sec
+“the sec 2”
+“the SeCoNd 2”
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1/inner_dir_1 (master)
+$ tail -4 tf_3.txt
+
+the s
+the sec
+“the sec 2”
+“the SeCoNd 2”
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1/inner_dir_1 (master)
+$ head -4 tf_3.txt
+the
+the s
+the sec
+“the sec 2”
+
+Huawei@LAPTOP-R9HUKFT6 MINGW64 ~/desktop/test/dir_1/inner_dir_1 (master)
+$ echo "Good jop!!"
+echo "Good jophead -4 tf_3.txt"
+Good jophead -4 tf_3.txt
+
+
